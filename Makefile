@@ -133,6 +133,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P /home/nicholas/Documents/projects/tool_flatten-oa-cpp/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -162,6 +163,474 @@ CLI11/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/cli11_proj-build/src/CMakeFiles/CLI11.dir/build.make _deps/cli11_proj-build/src/CMakeFiles/CLI11.dir/build
 .PHONY : CLI11/fast
 
+#=============================================================================
+# Target rules for targets named boost_atomic
+
+# Build rule for target.
+boost_atomic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_atomic
+.PHONY : boost_atomic
+
+# fast build rule for target.
+boost_atomic/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/atomic/CMakeFiles/boost_atomic.dir/build.make _deps/boost-build/libs/atomic/CMakeFiles/boost_atomic.dir/build
+.PHONY : boost_atomic/fast
+
+#=============================================================================
+# Target rules for targets named boost_charconv
+
+# Build rule for target.
+boost_charconv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_charconv
+.PHONY : boost_charconv
+
+# fast build rule for target.
+boost_charconv/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/charconv/CMakeFiles/boost_charconv.dir/build.make _deps/boost-build/libs/charconv/CMakeFiles/boost_charconv.dir/build
+.PHONY : boost_charconv/fast
+
+#=============================================================================
+# Target rules for targets named boost_chrono
+
+# Build rule for target.
+boost_chrono: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_chrono
+.PHONY : boost_chrono
+
+# fast build rule for target.
+boost_chrono/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/chrono/CMakeFiles/boost_chrono.dir/build.make _deps/boost-build/libs/chrono/CMakeFiles/boost_chrono.dir/build
+.PHONY : boost_chrono/fast
+
+#=============================================================================
+# Target rules for targets named boost_cobalt
+
+# Build rule for target.
+boost_cobalt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_cobalt
+.PHONY : boost_cobalt
+
+# fast build rule for target.
+boost_cobalt/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/cobalt/CMakeFiles/boost_cobalt.dir/build.make _deps/boost-build/libs/cobalt/CMakeFiles/boost_cobalt.dir/build
+.PHONY : boost_cobalt/fast
+
+#=============================================================================
+# Target rules for targets named boost_container
+
+# Build rule for target.
+boost_container: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_container
+.PHONY : boost_container
+
+# fast build rule for target.
+boost_container/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/container/CMakeFiles/boost_container.dir/build.make _deps/boost-build/libs/container/CMakeFiles/boost_container.dir/build
+.PHONY : boost_container/fast
+
+#=============================================================================
+# Target rules for targets named boost_context
+
+# Build rule for target.
+boost_context: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_context
+.PHONY : boost_context
+
+# fast build rule for target.
+boost_context/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/context/CMakeFiles/boost_context.dir/build.make _deps/boost-build/libs/context/CMakeFiles/boost_context.dir/build
+.PHONY : boost_context/fast
+
+#=============================================================================
+# Target rules for targets named boost_contract
+
+# Build rule for target.
+boost_contract: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_contract
+.PHONY : boost_contract
+
+# fast build rule for target.
+boost_contract/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/contract/CMakeFiles/boost_contract.dir/build.make _deps/boost-build/libs/contract/CMakeFiles/boost_contract.dir/build
+.PHONY : boost_contract/fast
+
+#=============================================================================
+# Target rules for targets named boost_coroutine
+
+# Build rule for target.
+boost_coroutine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_coroutine
+.PHONY : boost_coroutine
+
+# fast build rule for target.
+boost_coroutine/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/coroutine/CMakeFiles/boost_coroutine.dir/build.make _deps/boost-build/libs/coroutine/CMakeFiles/boost_coroutine.dir/build
+.PHONY : boost_coroutine/fast
+
+#=============================================================================
+# Target rules for targets named boost_date_time
+
+# Build rule for target.
+boost_date_time: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_date_time
+.PHONY : boost_date_time
+
+# fast build rule for target.
+boost_date_time/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/date_time/CMakeFiles/boost_date_time.dir/build.make _deps/boost-build/libs/date_time/CMakeFiles/boost_date_time.dir/build
+.PHONY : boost_date_time/fast
+
+#=============================================================================
+# Target rules for targets named boost_fiber
+
+# Build rule for target.
+boost_fiber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_fiber
+.PHONY : boost_fiber
+
+# fast build rule for target.
+boost_fiber/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/fiber/CMakeFiles/boost_fiber.dir/build.make _deps/boost-build/libs/fiber/CMakeFiles/boost_fiber.dir/build
+.PHONY : boost_fiber/fast
+
+#=============================================================================
+# Target rules for targets named boost_fiber_numa
+
+# Build rule for target.
+boost_fiber_numa: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_fiber_numa
+.PHONY : boost_fiber_numa
+
+# fast build rule for target.
+boost_fiber_numa/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/fiber/CMakeFiles/boost_fiber_numa.dir/build.make _deps/boost-build/libs/fiber/CMakeFiles/boost_fiber_numa.dir/build
+.PHONY : boost_fiber_numa/fast
+
+#=============================================================================
+# Target rules for targets named boost_filesystem
+
+# Build rule for target.
+boost_filesystem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_filesystem
+.PHONY : boost_filesystem
+
+# fast build rule for target.
+boost_filesystem/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/filesystem/CMakeFiles/boost_filesystem.dir/build.make _deps/boost-build/libs/filesystem/CMakeFiles/boost_filesystem.dir/build
+.PHONY : boost_filesystem/fast
+
+#=============================================================================
+# Target rules for targets named boost_graph
+
+# Build rule for target.
+boost_graph: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_graph
+.PHONY : boost_graph
+
+# fast build rule for target.
+boost_graph/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/graph/CMakeFiles/boost_graph.dir/build.make _deps/boost-build/libs/graph/CMakeFiles/boost_graph.dir/build
+.PHONY : boost_graph/fast
+
+#=============================================================================
+# Target rules for targets named boost_iostreams
+
+# Build rule for target.
+boost_iostreams: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_iostreams
+.PHONY : boost_iostreams
+
+# fast build rule for target.
+boost_iostreams/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/iostreams/CMakeFiles/boost_iostreams.dir/build.make _deps/boost-build/libs/iostreams/CMakeFiles/boost_iostreams.dir/build
+.PHONY : boost_iostreams/fast
+
+#=============================================================================
+# Target rules for targets named boost_json
+
+# Build rule for target.
+boost_json: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_json
+.PHONY : boost_json
+
+# fast build rule for target.
+boost_json/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/json/CMakeFiles/boost_json.dir/build.make _deps/boost-build/libs/json/CMakeFiles/boost_json.dir/build
+.PHONY : boost_json/fast
+
+#=============================================================================
+# Target rules for targets named boost_locale
+
+# Build rule for target.
+boost_locale: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_locale
+.PHONY : boost_locale
+
+# fast build rule for target.
+boost_locale/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/locale/CMakeFiles/boost_locale.dir/build.make _deps/boost-build/libs/locale/CMakeFiles/boost_locale.dir/build
+.PHONY : boost_locale/fast
+
+#=============================================================================
+# Target rules for targets named boost_log
+
+# Build rule for target.
+boost_log: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_log
+.PHONY : boost_log
+
+# fast build rule for target.
+boost_log/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/log/CMakeFiles/boost_log.dir/build.make _deps/boost-build/libs/log/CMakeFiles/boost_log.dir/build
+.PHONY : boost_log/fast
+
+#=============================================================================
+# Target rules for targets named boost_log_setup
+
+# Build rule for target.
+boost_log_setup: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_log_setup
+.PHONY : boost_log_setup
+
+# fast build rule for target.
+boost_log_setup/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/log/CMakeFiles/boost_log_setup.dir/build.make _deps/boost-build/libs/log/CMakeFiles/boost_log_setup.dir/build
+.PHONY : boost_log_setup/fast
+
+#=============================================================================
+# Target rules for targets named boost_nowide
+
+# Build rule for target.
+boost_nowide: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_nowide
+.PHONY : boost_nowide
+
+# fast build rule for target.
+boost_nowide/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/nowide/CMakeFiles/boost_nowide.dir/build.make _deps/boost-build/libs/nowide/CMakeFiles/boost_nowide.dir/build
+.PHONY : boost_nowide/fast
+
+#=============================================================================
+# Target rules for targets named boost_process
+
+# Build rule for target.
+boost_process: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_process
+.PHONY : boost_process
+
+# fast build rule for target.
+boost_process/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/process/CMakeFiles/boost_process.dir/build.make _deps/boost-build/libs/process/CMakeFiles/boost_process.dir/build
+.PHONY : boost_process/fast
+
+#=============================================================================
+# Target rules for targets named boost_program_options
+
+# Build rule for target.
+boost_program_options: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_program_options
+.PHONY : boost_program_options
+
+# fast build rule for target.
+boost_program_options/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/program_options/CMakeFiles/boost_program_options.dir/build.make _deps/boost-build/libs/program_options/CMakeFiles/boost_program_options.dir/build
+.PHONY : boost_program_options/fast
+
+#=============================================================================
+# Target rules for targets named boost_random
+
+# Build rule for target.
+boost_random: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_random
+.PHONY : boost_random
+
+# fast build rule for target.
+boost_random/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/random/CMakeFiles/boost_random.dir/build.make _deps/boost-build/libs/random/CMakeFiles/boost_random.dir/build
+.PHONY : boost_random/fast
+
+#=============================================================================
+# Target rules for targets named boost_serialization
+
+# Build rule for target.
+boost_serialization: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_serialization
+.PHONY : boost_serialization
+
+# fast build rule for target.
+boost_serialization/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/serialization/CMakeFiles/boost_serialization.dir/build.make _deps/boost-build/libs/serialization/CMakeFiles/boost_serialization.dir/build
+.PHONY : boost_serialization/fast
+
+#=============================================================================
+# Target rules for targets named boost_wserialization
+
+# Build rule for target.
+boost_wserialization: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_wserialization
+.PHONY : boost_wserialization
+
+# fast build rule for target.
+boost_wserialization/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/serialization/CMakeFiles/boost_wserialization.dir/build.make _deps/boost-build/libs/serialization/CMakeFiles/boost_wserialization.dir/build
+.PHONY : boost_wserialization/fast
+
+#=============================================================================
+# Target rules for targets named boost_stacktrace_noop
+
+# Build rule for target.
+boost_stacktrace_noop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_stacktrace_noop
+.PHONY : boost_stacktrace_noop
+
+# fast build rule for target.
+boost_stacktrace_noop/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/stacktrace/CMakeFiles/boost_stacktrace_noop.dir/build.make _deps/boost-build/libs/stacktrace/CMakeFiles/boost_stacktrace_noop.dir/build
+.PHONY : boost_stacktrace_noop/fast
+
+#=============================================================================
+# Target rules for targets named boost_stacktrace_backtrace
+
+# Build rule for target.
+boost_stacktrace_backtrace: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_stacktrace_backtrace
+.PHONY : boost_stacktrace_backtrace
+
+# fast build rule for target.
+boost_stacktrace_backtrace/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/stacktrace/CMakeFiles/boost_stacktrace_backtrace.dir/build.make _deps/boost-build/libs/stacktrace/CMakeFiles/boost_stacktrace_backtrace.dir/build
+.PHONY : boost_stacktrace_backtrace/fast
+
+#=============================================================================
+# Target rules for targets named boost_stacktrace_addr2line
+
+# Build rule for target.
+boost_stacktrace_addr2line: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_stacktrace_addr2line
+.PHONY : boost_stacktrace_addr2line
+
+# fast build rule for target.
+boost_stacktrace_addr2line/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/stacktrace/CMakeFiles/boost_stacktrace_addr2line.dir/build.make _deps/boost-build/libs/stacktrace/CMakeFiles/boost_stacktrace_addr2line.dir/build
+.PHONY : boost_stacktrace_addr2line/fast
+
+#=============================================================================
+# Target rules for targets named boost_stacktrace_basic
+
+# Build rule for target.
+boost_stacktrace_basic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_stacktrace_basic
+.PHONY : boost_stacktrace_basic
+
+# fast build rule for target.
+boost_stacktrace_basic/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/stacktrace/CMakeFiles/boost_stacktrace_basic.dir/build.make _deps/boost-build/libs/stacktrace/CMakeFiles/boost_stacktrace_basic.dir/build
+.PHONY : boost_stacktrace_basic/fast
+
+#=============================================================================
+# Target rules for targets named boost_prg_exec_monitor
+
+# Build rule for target.
+boost_prg_exec_monitor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_prg_exec_monitor
+.PHONY : boost_prg_exec_monitor
+
+# fast build rule for target.
+boost_prg_exec_monitor/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/test/CMakeFiles/boost_prg_exec_monitor.dir/build.make _deps/boost-build/libs/test/CMakeFiles/boost_prg_exec_monitor.dir/build
+.PHONY : boost_prg_exec_monitor/fast
+
+#=============================================================================
+# Target rules for targets named boost_test_exec_monitor
+
+# Build rule for target.
+boost_test_exec_monitor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_test_exec_monitor
+.PHONY : boost_test_exec_monitor
+
+# fast build rule for target.
+boost_test_exec_monitor/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/test/CMakeFiles/boost_test_exec_monitor.dir/build.make _deps/boost-build/libs/test/CMakeFiles/boost_test_exec_monitor.dir/build
+.PHONY : boost_test_exec_monitor/fast
+
+#=============================================================================
+# Target rules for targets named boost_unit_test_framework
+
+# Build rule for target.
+boost_unit_test_framework: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_unit_test_framework
+.PHONY : boost_unit_test_framework
+
+# fast build rule for target.
+boost_unit_test_framework/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/test/CMakeFiles/boost_unit_test_framework.dir/build.make _deps/boost-build/libs/test/CMakeFiles/boost_unit_test_framework.dir/build
+.PHONY : boost_unit_test_framework/fast
+
+#=============================================================================
+# Target rules for targets named boost_thread
+
+# Build rule for target.
+boost_thread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_thread
+.PHONY : boost_thread
+
+# fast build rule for target.
+boost_thread/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/thread/CMakeFiles/boost_thread.dir/build.make _deps/boost-build/libs/thread/CMakeFiles/boost_thread.dir/build
+.PHONY : boost_thread/fast
+
+#=============================================================================
+# Target rules for targets named boost_timer
+
+# Build rule for target.
+boost_timer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_timer
+.PHONY : boost_timer
+
+# fast build rule for target.
+boost_timer/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/timer/CMakeFiles/boost_timer.dir/build.make _deps/boost-build/libs/timer/CMakeFiles/boost_timer.dir/build
+.PHONY : boost_timer/fast
+
+#=============================================================================
+# Target rules for targets named boost_type_erasure
+
+# Build rule for target.
+boost_type_erasure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_type_erasure
+.PHONY : boost_type_erasure
+
+# fast build rule for target.
+boost_type_erasure/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/type_erasure/CMakeFiles/boost_type_erasure.dir/build.make _deps/boost-build/libs/type_erasure/CMakeFiles/boost_type_erasure.dir/build
+.PHONY : boost_type_erasure/fast
+
+#=============================================================================
+# Target rules for targets named boost_url
+
+# Build rule for target.
+boost_url: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_url
+.PHONY : boost_url
+
+# fast build rule for target.
+boost_url/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/url/CMakeFiles/boost_url.dir/build.make _deps/boost-build/libs/url/CMakeFiles/boost_url.dir/build
+.PHONY : boost_url/fast
+
+#=============================================================================
+# Target rules for targets named boost_wave
+
+# Build rule for target.
+boost_wave: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boost_wave
+.PHONY : boost_wave
+
+# fast build rule for target.
+boost_wave/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/boost-build/libs/wave/CMakeFiles/boost_wave.dir/build.make _deps/boost-build/libs/wave/CMakeFiles/boost_wave.dir/build
+.PHONY : boost_wave/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -173,6 +642,42 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... CLI11"
+	@echo "... boost_atomic"
+	@echo "... boost_charconv"
+	@echo "... boost_chrono"
+	@echo "... boost_cobalt"
+	@echo "... boost_container"
+	@echo "... boost_context"
+	@echo "... boost_contract"
+	@echo "... boost_coroutine"
+	@echo "... boost_date_time"
+	@echo "... boost_fiber"
+	@echo "... boost_fiber_numa"
+	@echo "... boost_filesystem"
+	@echo "... boost_graph"
+	@echo "... boost_iostreams"
+	@echo "... boost_json"
+	@echo "... boost_locale"
+	@echo "... boost_log"
+	@echo "... boost_log_setup"
+	@echo "... boost_nowide"
+	@echo "... boost_prg_exec_monitor"
+	@echo "... boost_process"
+	@echo "... boost_program_options"
+	@echo "... boost_random"
+	@echo "... boost_serialization"
+	@echo "... boost_stacktrace_addr2line"
+	@echo "... boost_stacktrace_backtrace"
+	@echo "... boost_stacktrace_basic"
+	@echo "... boost_stacktrace_noop"
+	@echo "... boost_test_exec_monitor"
+	@echo "... boost_thread"
+	@echo "... boost_timer"
+	@echo "... boost_type_erasure"
+	@echo "... boost_unit_test_framework"
+	@echo "... boost_url"
+	@echo "... boost_wave"
+	@echo "... boost_wserialization"
 	@echo "... main.exe"
 .PHONY : help
 
@@ -185,6 +690,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /home/nicholas/Documents/projects/tool_flatten-oa-cpp/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
-

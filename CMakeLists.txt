@@ -1,5 +1,11 @@
 cmake_minimum_required(VERSION 3.30)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set(CMAKE_C_COMPILER "gcc")
+set(CMAKE_CXX_COMPILER "icpx")
+set (CMAKE_CXX_STANDARD 26)
+
 project(Project)
 
 add_subdirectory(src)
@@ -13,6 +19,11 @@ FetchContent_Declare(
     GIT_TAG v2.3.2
 )
 
-FetchContent_MakeAvailable(cli11_proj)
+FetchContent_Declare(
+  Boost
+  GIT_REPOSITORY https://github.com/boostorg/boost.git
+  GIT_TAG boost-1.86.0
+)
 
-target_link_libraries(main.exe PRIVATE CLI11::CLI11)
+FetchContent_MakeAvailable(cli11_proj)
+FetchContent_MakeAvailable(Boost)
